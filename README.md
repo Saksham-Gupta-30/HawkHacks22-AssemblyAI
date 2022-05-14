@@ -26,4 +26,5 @@ media_url = 'Add your url(starts with https)'
 response_upload_by_url = ai1.upload_audio_by_url(media_url)
 transcript_id = response_upload_by_url.json()['id']
 ```
-#### Run the app python file as a python script and wait for a while. If output states Queued or Processing, run the print command at last again.
+#### Run the app python file as a python script and wait for a while. If output states Queued or Processing, retrieve the jobs and print again.
+#### Make sure you have installed all the libraries(pandas, requests, rich)
